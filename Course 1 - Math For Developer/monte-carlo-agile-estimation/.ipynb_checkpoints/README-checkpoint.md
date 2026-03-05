@@ -11,7 +11,7 @@ A big challenge I am facing on a daily basis in my work environment is frequentl
 The main objective of this project is to explore whether Monte Carlo simulation can produce more realistic delivery forecasts for similar by type work based on Jira tickets by modeling historical throughput/cycle time data as probability distribution, rather than point estimates. The project will also explore the significance of various parameters which can be used to improve the accuracy.
 
 ### Data
-Both anonymized real data from Jira, as well as synthetic generated data will be used to conduct the experiments in this project.
+Both anonymized real data from Jira, as well as synthetic generated data will be used to conduct the experiments.
 
 ### Project Structure
 1. Problem Defition
