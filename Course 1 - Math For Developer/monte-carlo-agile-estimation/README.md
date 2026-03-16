@@ -28,8 +28,15 @@ The following are identified as valuable but outside the scope of this project:
 ## How to Use
 > **Important**: Both notebooks must be executed sequentially, cell by cell, from top to bottom. Cells depend on variables and functions defined in earlier cells running them out of order will cause errors.
 
-### Recommended Execution order
+### Recommended Execution Order
 1. Open and run `01_problem_definition.ipynb` from top to bottom
 2. Open and run `02_monte_carlo_simulation.ipynb` from top to bottom
 
-PyMC will display a compiler warning on first run if `g++` is not available. This does not affect results — PyMC falls back to a Python implementation with a minor performance cost.
+PyMC will display a compiler warning on first run if `g++` is not available. This does not affect results PyMC falls back to a Python implementation with a minor performance cost. 
+
+### Dependencies
+- [NumPy](https://numpy.org/)
+- [Matplotlib](https://matplotlib.org/)
+- [pandas](https://pandas.pydata.org/)
+- [PyMC](https://www.pymc.io/)
+- Mathematical references are cited inline in each notebook
